@@ -1,0 +1,72 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20-Jun-2018, 10:00:53
+    Author     : JAVA
+*/
+
+.root{
+    
+    -fx-background-color: black;
+    
+}
+
+.button{
+    
+    -fx-border-color: yellow;
+    -fx-border-width: 1px;
+    -fx-border-radius: 30px;
+    -fx-background-color: black;
+    -fx-background-radius: 20px;
+    -fx-text-fill: yellow;
+    -fx-pref-width: 130px;
+    -fx-pref-height: 50px;
+};
+
+/*.custom_button{
+    
+    -fx-border-color: blueviolet;
+    -fx-border-width: 1px;
+    -fx-border-radius: 30px;
+    -fx-background-color: black;
+    -fx-background-radius: 20px;
+    -fx-text-fill: red;
+    -fx-pref-width: 130px;
+    -fx-pref-height: 50px;
+    
+} */
+
+.tab {
+    
+    -fx-background-color: black;
+    -fx-pref-height: 50px;
+    
+}
+
+.tab-header-background{
+    
+    -fx-background-color: black;
+    -fx-pref-height: 50px;
+}
+
+.menu-bar{
+    
+    -fx-background-color: black;
+    
+}
+
+.menu .label {
+    
+    -fx-text-fill: yellow;
+    
+}
+
+.context-menu{
+    
+    -fx-background-color: black;
+    
+}
+

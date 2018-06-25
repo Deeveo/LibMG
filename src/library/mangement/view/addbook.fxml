@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" stylesheets="@../css/default-theme.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="library.mangement.controller.AddbookController">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="435.0" prefWidth="650.0" spacing="15.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label alignment="TOP_CENTER" prefHeight="34.0" prefWidth="471.0" text="ADD BOOK">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="bookID" alignment="TOP_LEFT" focusColor="WHITE" labelFloat="true" prefHeight="50.0" prefWidth="600.0" promptText="BOOK ID" unFocusColor="WHITE">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="20.0" />
+               </padding>
+            </JFXTextField>
+            <JFXTextField fx:id="booktitle" alignment="TOP_LEFT" focusColor="WHITE" labelFloat="true" prefHeight="50.0" prefWidth="600.0" promptText="BOOK TITLE" unFocusColor="WHITE">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="20.0" />
+               </padding>
+            </JFXTextField>
+            <JFXTextField fx:id="bookauthor" alignment="TOP_LEFT" focusColor="WHITE" labelFloat="true" prefHeight="50.0" prefWidth="600.0" promptText="BOOK AUTHOR" unFocusColor="WHITE">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="20.0" />
+               </padding>
+            </JFXTextField>
+            <JFXTextField fx:id="bookpublisher" alignment="TOP_LEFT" focusColor="WHITE" labelFloat="true" prefHeight="50.0" prefWidth="600.0" promptText="BOOK PUBLISHER" unFocusColor="WHITE">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="20.0" />
+               </padding>
+            </JFXTextField>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+               <children>
+                  <JFXButton fx:id="savebt" onAction="#saverToDB" prefHeight="50.0" prefWidth="100.0" text="Save">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                  </JFXButton>
+                  <JFXButton fx:id="closeAddbook" onAction="#closeaddbook" prefHeight="50.0" prefWidth="100.0" text="Close">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                  </JFXButton>
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </HBox>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </VBox>
+   </children>
+</AnchorPane>
